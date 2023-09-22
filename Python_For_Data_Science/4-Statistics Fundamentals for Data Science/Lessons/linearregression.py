@@ -51,7 +51,7 @@ plt.clf()
 
 # Test Homoscedasticity assumption
 # Homoscedasticity is a fancy way of saying that the residuals have equal variation across all values of the predictor variable.
-# Look for even results either side of 0
+# Look for even results either side of 0. No pattern in scatter plot
 # Plot the residuals against the fitted vals here:
 plt.scatter(fitted_values, residuals)
 plt.show()
