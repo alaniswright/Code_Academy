@@ -117,8 +117,12 @@ from scipy import binom_test
 p_value = binom_test(2, n=10, p=0.5)
 print(p_value) 
 
-# calculate p_value_1sided here:
+# calculate p_value_1sided here: one sided test for less than
 p_value_1sided = binom_test(41, n=500, p=0.1, alternative='less')
+print(p_value_1sided)
+
+# calculate p_value_1sided here: one sided test for more than
+p_value_1sided = binom_test(41, n=500, p=0.1, alternative='greater')
 print(p_value_1sided)
 
 # SIGNIFICANCE THRESHOLDS
