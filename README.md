@@ -1,4 +1,4 @@
-# Code-Academy Learning 2022
+# Code-Academy Learning
 
 My work on the Code-Academy Career Path: [Data Scientist: Natural Language Processing Specialist](https://www.codecademy.com/learn/paths/data-science-nlp)
 
